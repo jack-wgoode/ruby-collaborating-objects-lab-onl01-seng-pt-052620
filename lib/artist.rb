@@ -34,7 +34,6 @@ class Artist
 
   def self.create(name)
     artist = self.new(name)
-    
     artist
   end
   
@@ -45,9 +44,7 @@ class Artist
   end
   
   def print_songs 
-    self.songs.each do |song|
-      puts song.name
-    end
+    puts self.songs
   end  
   
   
